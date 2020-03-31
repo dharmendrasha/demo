@@ -1,0 +1,9 @@
+/node_modules
+/vendor
+
+#important librariess that has not to send
+!public/vendor
+!vendor/laravel-admin
+!vendor/2checkout
+!vendor/laravel-admin-ext
+!vendor/encore
