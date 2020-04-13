@@ -1,0 +1,11 @@
+{{--start--}}
+@extends('layouts.app')
+@section('content')
+@guest
+     @include('guest.welcome')
+    {{--@include('guest\one')--}}
+    @else
+    @include('logged.welcome')
+@endguest
+@endsection
+{{--end--}}
